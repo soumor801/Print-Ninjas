@@ -57,35 +57,25 @@ The **Print Ninjas** MVP is to use react on rails to deliver a full CRUD functio
 
 ![WireFrame](https://www.figma.com/file/rmfJyU0PWRT7GoOVZ7QSEY/Print-Ninjas?node-id=0%3A1)
 
-![Alt text](![Screen Shot 2021-12-10 at 9 35 16 AM](https://user-images.githubusercontent.com/90592683/145590849-24ed9876-11c5-46bc-8083-fd79eee0def8.png))
+![WireFrame](![Screen Shot 2021-12-10 at 9 35 16 AM](https://user-images.githubusercontent.com/90592683/145590849-24ed9876-11c5-46bc-8083-fd79eee0def8.png))
 
-![Screen Shot 2021-12-10 at 9 35 16 AM](![Screen Shot 2021-12-10 at 9 38 41 AM](https://user-images.githubusercontent.com/90592683/145591356-6cffc9dd-4773-491f-a7d2-9a9bdb1098a2.png))
+![Branding](![Screen Shot 2021-12-10 at 9 38 41 AM](https://user-images.githubusercontent.com/90592683/145591356-6cffc9dd-4773-491f-a7d2-9a9bdb1098a2.png))
 
 
 ![ERD](https://drive.google.com/file/d/1D0V15y37HwTZBPGsMSgNJAt9AYGWsMzc/view)
 
 ![Screen Shot 2021-12-10 at 9 38 41 AM](https://drive.google.com/file/d/1D0V15y37HwTZBPGsMSgNJAt9AYGWsMzc/view)
-![Dummy Link](url)
 
-- Resource Index
 
-![Dummy Link](url)
-
-- Resource Show
-
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
 
 #### Component Tree
 
 > Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. Include a link to your component tree
 
 [Component Tree Sample](https://www.figma.com/file/qFqGM14to69allQJT7NLCv/Untitled?node-id=6%3A29)
+
+![Tree Sample](!![Screen Shot 2021-12-10 at 9 45 35 AM](https://user-images.githubusercontent.com/90592683/145592411-299cdf04-8fcf-4338-ad5a-c29cd6501a97.png))
+
 
 #### Component Architecture
 
