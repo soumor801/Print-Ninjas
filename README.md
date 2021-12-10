@@ -53,7 +53,7 @@ _The **Print Ninjas** MVP is to use react on rails to deliver a full CRUD functi
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Front-end                                 |
+|      React       |  Front-end                                 |
 |   React Router   | _Front-end path navigation_                |
 |     Rails        | _Backend for database management_          |
 
