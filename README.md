@@ -57,7 +57,7 @@ The **Print Ninjas** MVP is to use react on rails to deliver a full CRUD functio
 
 ![WireFrame](https://www.figma.com/file/rmfJyU0PWRT7GoOVZ7QSEY/Print-Ninjas?node-id=0%3A1)
 
-- Desktop Landing
+![Alt text](![Screen Shot 2021-12-10 at 9 35 16 AM](https://user-images.githubusercontent.com/90592683/145590849-24ed9876-11c5-46bc-8083-fd79eee0def8.png))
 
 ![Dummy Link](url)
 
