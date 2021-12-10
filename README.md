@@ -59,10 +59,12 @@ The **Print Ninjas** MVP is to use react on rails to deliver a full CRUD functio
 
 ![Alt text](![Screen Shot 2021-12-10 at 9 35 16 AM](https://user-images.githubusercontent.com/90592683/145590849-24ed9876-11c5-46bc-8083-fd79eee0def8.png))
 
-![Dummy Link](url)
+![Screen Shot 2021-12-10 at 9 35 16 AM](![Screen Shot 2021-12-10 at 9 38 41 AM](https://user-images.githubusercontent.com/90592683/145591356-6cffc9dd-4773-491f-a7d2-9a9bdb1098a2.png))
 
-- Desktop Hero
 
+![ERD](https://drive.google.com/file/d/1D0V15y37HwTZBPGsMSgNJAt9AYGWsMzc/view)
+
+![Screen Shot 2021-12-10 at 9 38 41 AM](https://drive.google.com/file/d/1D0V15y37HwTZBPGsMSgNJAt9AYGWsMzc/view)
 ![Dummy Link](url)
 
 - Resource Index
