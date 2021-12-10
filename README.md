@@ -2,7 +2,6 @@
 
 - [Overview](#overview)
 - [MVP](#mvp)
-  - [Goals](#goals)
   - [Libraries and Dependencies](#libraries-and-dependencies)
   - [Client (Front End)](#client-front-end)
     - [Wireframes](#wireframes)
@@ -19,7 +18,7 @@
 
 ## Overview
 
-_**Print Ninjas** is a digital & physical print ecommerce webite that allows user to create, view, and edit all your favorite anime characters, all in one place. 
+**Print Ninjas** is a digital & physical print ecommerce webite that allows user to create, view, and edit all your favorite anime characters, all in one place. 
 
 
 <br>
@@ -34,17 +33,7 @@ _**Print Ninjas** is a digital & physical print ecommerce webite that allows use
 - CSS styling to match wireframe and branding
   Include media queries
 
-_The **Print Ninjas** MVP is to use react on rails to deliver a full CRUD functionality, using multiple functional components. Adding Authorization and Authentication to deliver a full user experience.
-<br>
-
-### Goals
-
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
-
+The **Print Ninjas** MVP is to use react on rails to deliver a full CRUD functionality, using multiple functional components. Adding Authorization and Authentication to deliver a full user experience.
 <br>
 
 ### Libraries and Dependencies
