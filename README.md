@@ -18,7 +18,7 @@
 
 ## Overview
 
-**Print Ninjas** is a digital & physical print ecommerce webite that allows user to create, view, and edit all your favorite anime characters, all in one place. 
+**Print Ninjas** is a digital & physical print ecommerce website that allows user to create, view, and edit all your favorite anime characters, all in one place. 
 
 
 <br>
