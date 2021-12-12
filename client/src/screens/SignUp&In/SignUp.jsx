@@ -4,7 +4,8 @@ function SignUp() {
   return (
     <Layout>
     <div>
-      <div>This is the Sign up page </div>
+        <div>This is the Sign up page </div>
+        
       </div>
       </Layout>
   )
