@@ -1,0 +1,19 @@
+img.nav-logo {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+}
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ff8329;
+  height: 100px;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 35px;
+}
