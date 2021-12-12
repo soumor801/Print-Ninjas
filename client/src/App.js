@@ -9,9 +9,15 @@ import SinglePrint from './screens/Prints/SinglePrints';
 import SignIn from './screens/SignUp&In/SignIn';
 import SignUp from './screens/SignUp&In/SignUp';
 function App() {
- const [user, setUser] = useState(null)
+  const [user, setUser] = useState(null)
+  const [open, setOpen] = useState(false)
 
-
+  const handleOpen = () => {
+    setOpen(true)
+  }
+  const handleClose= () => {
+    setOpen(false)
+  }
   // create useEffect to fetch verified user
   return (
     <div className="App">
@@ -50,6 +56,10 @@ function App() {
           element={<About/>}
           />
       </Routes>
+      {<SignUp
+        handleOpen={handleOpen}
+        handleClose={handleClose}
+      />}
     </div>
   );
 }
