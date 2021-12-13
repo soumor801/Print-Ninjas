@@ -3,7 +3,10 @@ body {
   height: 100%;
 }
 img.footer-logo {
-  height: 230px;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 60% 60%;
 }
 footer {
   position: relative;

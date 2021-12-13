@@ -69,7 +69,7 @@ function App() {
           element={<Prints/>}
           />
         <Route
-          path='/print-edit/i:d'
+          path='/print-edit/:id'
           element={<EditPrint/>}
           />
         <Route
