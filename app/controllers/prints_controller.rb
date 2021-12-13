@@ -1,7 +1,6 @@
 class PrintsController < ApplicationController
-  before_action :set_print, only: [:show, :update, :destroy]
-
-  # GET /prints
+  before_action :set_print, only: :show
+      # GET /prints
   def index
     @prints = Print.all
 
@@ -10,7 +9,7 @@ class PrintsController < ApplicationController
 
   # GET /prints/1
   def show
-    render json: @print
+    render json: @print, include: :prints
   end
 
   # POST /prints
@@ -18,7 +17,7 @@ class PrintsController < ApplicationController
     @print = Print.new(print_params)
 
     if @print.save
-      render json: @print, status: :created, location: @print
+      render json: @print, status: :created
     else
       render json: @print.errors, status: :unprocessable_entity
     end
