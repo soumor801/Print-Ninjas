@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useHistory } from 'react'
 import {Route, Routes, Navigate } from 'react-router-dom'
 import About from './components/About';
 import Home from './components/Home';
@@ -8,9 +8,12 @@ import Prints from './screens/Prints/Prints';
 import SinglePrint from './screens/Prints/SinglePrints';
 import SignIn from './screens/SignUp&In/SignIn';
 import SignUp from './screens/SignUp&In/SignUp';
+import {loginUser, registerUser, verifyUser, removeToken} from './services/Authentication'
 function App() {
   const [user, setUser] = useState(null)
   const [open, setOpen] = useState(false)
+
+  // let history = useHistory();
 
   const handleOpen = () => {
     setOpen(true)
@@ -19,6 +22,28 @@ function App() {
     setOpen(false)
   }
   // create useEffect to fetch verified user
+  useEffect(() => {
+    const handleVerify = async () => {
+      const userData = await verifyUser();
+      setUser(userData)
+    }
+    handleVerify();
+  }, [])
+  const handleLogin = async (formData) => {
+    const userData = await loginUser(formData);
+    setUser(userData);
+  }
+
+  const handleRegister = async (formData) => {
+    const userData = await registerUser(formData);
+    setUser(userData);
+    
+  };
+  const handleLogout = () => {
+    setUser(null);
+    localStorage.removeItem('authToken');
+    removeToken();
+  };
   return (
     <div className="App">
       {/* create Routes */}
@@ -29,11 +54,11 @@ function App() {
         />
         <Route
           path='/sign-in'
-          element={<SignIn/>}
+          element={<SignIn handleLogin={handleLogin}/>}
           />
         <Route
           path='/sign-up'
-          element={<SignUp/>}
+          element={<SignUp handleRegister={handleRegister}/>}
           />
         <Route
           path='/print/:id'
@@ -56,10 +81,10 @@ function App() {
           element={<About/>}
           />
       </Routes>
-      {<SignUp
+      {/* {<SignUp
         handleOpen={handleOpen}
         handleClose={handleClose}
-      />}
+      />} */}
     </div>
   );
 }

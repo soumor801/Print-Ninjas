@@ -15,7 +15,6 @@ function Layout(props) {
         <Link to='/sign-up'>Sign-Up</Link>
         </div>
         <Link to='/'><img className='footer-logo' src='https://i.imgur.com/2p10WOz.png'/></Link>
-
       </footer>
     </div>
   )

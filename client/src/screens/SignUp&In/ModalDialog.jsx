@@ -5,7 +5,7 @@ const ModalDialog = ({ open, handleClose }) => {
   return (
     <div>
       <Dialog open={open} onClose={handleClose} />
-      <SignUp />
+    
     </div>
   )
 };
