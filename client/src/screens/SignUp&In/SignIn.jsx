@@ -1,6 +1,7 @@
 import Layout from "../../components/Layout";
 import {useState } from 'react' 
 import { TextField, Button } from "@mui/material";
+import SignInCSS from '../SignUp&In/SignIn.css'
 const SignIn = ({handleLogin}) => {
   const [formData, setFormData] = useState({
     email: '',
@@ -17,9 +18,10 @@ const SignIn = ({handleLogin}) => {
   };
   return (
     <Layout>
-    <div>
-        <div>This is the Sign In page </div>
+    <div className='sign-in-form-wrapper'>
+       <h1>Sign In here!</h1>
         <form
+          className='form-sign-in'
           onSubmit={(e) => {
             e.preventDefault();
             handleLogin(formData)

@@ -1,0 +1,23 @@
+.sign-in-form-wrapper {
+  height: 50vh;
+  display: flex;
+  /* width: 45vw; */
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 50px;
+}
+.form-sign-in {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+}
+.button-wrapper {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+}
