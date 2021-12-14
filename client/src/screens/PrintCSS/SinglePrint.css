@@ -1,0 +1,57 @@
+.url {
+  height: 400px;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+
+  margin: 50px;
+  /* justify-content: space-evenly; */
+}
+.price-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+#edit-delete {
+  background-color: #e76f51;
+  width: 12vw;
+}
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 40px;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+.price {
+  font-family: "cabin", Arial, Helvetica, sans-serif;
+  color: black;
+}
+.product-description {
+  font-family: "cabin", Arial, Helvetica, sans-serif;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+.deleteButton {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff8329;
+  padding: 8px 14px 8px 14px;
+  border-radius: 5px;
+  margin: 10px;
+}
