@@ -1,5 +1,5 @@
 class PrintsController < ApplicationController
-  before_action :set_print, only: :show
+  before_action :set_print, only: [:show, :update, :destroy]
       # GET /prints
   def index
     @prints = Print.all
@@ -9,7 +9,7 @@ class PrintsController < ApplicationController
 
   # GET /prints/1
   def show
-    render json: @print, include: :prints
+    render json: @print
   end
 
   # POST /prints
@@ -45,6 +45,6 @@ class PrintsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def print_params
-      params.require(:print).permit(:title, :image_link, :anime_name, :is_digital, :is_physical, :price, :description)
+      params.require(:print).permit( :updated_at , :created_at , :user_id,:title, :image_link, :anime_name, :is_digital, :is_physical, :price, :description, :id)
     end
 end
