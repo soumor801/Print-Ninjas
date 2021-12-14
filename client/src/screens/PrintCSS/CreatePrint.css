@@ -1,0 +1,24 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 5px;
+  width: 45vw;
+}
+.addproduct-h2 {
+  color: #ff8329;
+}
+.create-form-container {
+  display: flex;
+  justify-content: center;
+
+  margin: 50px;
+}
+.add-submit-button {
+}
+.addproduct-h2 {
+  display: flex;
+  justify-content: center;
+}

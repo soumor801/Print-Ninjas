@@ -18,7 +18,8 @@ img.print-image img:hover {
   transform: scale(1.2); /* (150% zoom)*/
 }
 a.addProduct {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   color: #ffffff;
   background-color: #ff8329;
@@ -32,4 +33,5 @@ a.addProduct {
   margin: 10px;
   border-radius: 5px;
   margin: 100px auto 100px auto;
+  width: 100px;
 }

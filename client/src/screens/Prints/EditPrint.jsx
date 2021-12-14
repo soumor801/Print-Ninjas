@@ -2,6 +2,7 @@ import Layout from "../../components/Layout";
 import { useState, useEffect } from 'react'
 import { useParams } from "react-router";
 import { getOnePrint, updatePrint } from "../../services/HttpReq";
+import EditPrintCSS from '../../screens/PrintCSS/EditPrint.css'
 const EditPrint = (props) => {
   const [print, setPrint] = useState({
     title: "",
@@ -43,9 +44,11 @@ console.log(print)
   return (
     <Layout>
     <div>
-    <div className='create-form-container'>     
-      <form className='create-form' onSubmit={handleSubmit}>
-        <h2 id="addproduct-h2">Add a Print</h2>
+        <div className='form-wrappers'>
+          <img className='url' src={print.image_link}/>
+          <div className='form-box'>
+      <form className='editForm' onSubmit={handleSubmit}>
+        <h2 className="addproduct-h2">Add a Print</h2>
         <input 
           className="addproduct-input"
           id='input-name'
@@ -66,6 +69,15 @@ console.log(print)
           autoFocus
           onChange={handleChange}
         />
+          <input
+            className="addproduct-input"
+            id='input-price'
+            placeholder='Price'
+            value={print.price}
+            name='price'
+            required
+            onChange={handleChange}
+          />
           <input 
           className="addproduct-input"
           id='input-image-link'
@@ -85,17 +97,10 @@ console.log(print)
           required
           onChange={handleChange}
         />
-        <input
-          className="addproduct-input"
-          id='input-price'
-          placeholder='Price'
-          value={print.price}
-          name='price'
-          required
-          onChange={handleChange}
-        />
         <button type='submit' className='add-submit-button'>Edit Print</button>
+        
       </form>
+      </div>
       </div>
       </div>
       </Layout>

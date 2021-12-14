@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 import { useNavigate } from 'react-router-dom'
 import {useState } from 'react'
 import { createPrint } from "../../services/HttpReq";
-
+import CreateCSS from '../../screens/PrintCSS/CreatePrint.css'
 function CreatePrint() {
   const navigate = useNavigate()
 
@@ -37,9 +37,10 @@ function CreatePrint() {
   return (
     <Layout>
     <div>
-    <div className='create-form-container'>     
+        <div className='create-form-container'>
+    <div className='form-wrapper'>      
       <form className='create-form' onSubmit={handleSubmit}>
-        <h2 id="addproduct-h2">Add a Print</h2>
+        <h2 className="addproduct-h2">Add a Print</h2>
         <input 
           className="addproduct-input"
           id='input-name'
@@ -88,8 +89,9 @@ function CreatePrint() {
           required
           onChange={handleChange}
         />
-        <button type='submit' className='add-submit-button'>let's go</button>
       </form>
+        <button type='submit' className='add-submit-button'>let's go</button>
+      </div>
       </div>
       </div>
       </Layout>
