@@ -27,7 +27,7 @@ function Prints() {
         </div>
         <Link className="addProduct" to="/create-print">
         {" "}
-        add a Print
+        Add a Print
       </Link>
       </div>
       </Layout>
