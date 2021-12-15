@@ -35,7 +35,6 @@ function CreatePrint() {
   }
   
   return (
-    <Layout>
     <div>
         <div className='create-form-container'>
     <div className='form-wrapper'>      
@@ -94,7 +93,7 @@ function CreatePrint() {
       </div>
       </div>
       </div>
-      </Layout>
+ 
   )
 }
 export default CreatePrint;

@@ -2,6 +2,8 @@ import { useState, useEffect, useHistory } from 'react'
 import {Route, Routes, Navigate } from 'react-router-dom'
 import About from './components/About';
 import Home from './components/Home';
+import Layout from './components/Layout';
+import Nav from './components/Nav';
 import CreatePrint from './screens/Prints/CreatePrint';
 import EditPrint from './screens/Prints/EditPrint';
 import Prints from './screens/Prints/Prints';
@@ -14,7 +16,7 @@ function App() {
   const [open, setOpen] = useState(false)
 
   // let history = useHistory();
-
+console.log(user)
   const handleOpen = () => {
     setOpen(true)
   }
@@ -45,6 +47,7 @@ function App() {
     removeToken();
   };
   return (
+    <Layout user={user}>
     <div className="App">
       {/* create Routes */}
       <Routes>
@@ -86,6 +89,7 @@ function App() {
         handleClose={handleClose}
       />} */}
     </div>
+      </Layout>
   );
 }
 

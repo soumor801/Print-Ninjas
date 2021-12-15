@@ -42,7 +42,7 @@ console.log(print)
     // return <Navigate to={`/prints/${id}`} />;
   }
   return (
-    <Layout>
+
     <div>
         <div className='form-wrappers'>
           <img className='url' src={print.image_link}/>
@@ -103,7 +103,7 @@ console.log(print)
       </div>
       </div>
       </div>
-      </Layout>
+
   )
 }
 export default EditPrint;

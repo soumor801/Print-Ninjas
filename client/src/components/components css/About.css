@@ -2,8 +2,12 @@
 }
 .about-wrapper {
   height: 60vh;
+  margin: 30px;
 }
-
+.about-h1 {
+  display: flex;
+  justify-content: center;
+}
 .profile-text h4 {
   font-family: "Cabin", sans-serif;
   font-weight: 600;

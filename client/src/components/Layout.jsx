@@ -1,11 +1,14 @@
 import Nav from "./Nav";
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import LayoutCSS from './components css/Layout.css'
 function Layout(props) {
+ 
+ 
   return (
     <div className='layout-wrapper'>
-      <Nav />
+        
       <div className="layout-children">
+      <Nav user={props.user}  />
             {props.children}</div>
       <footer>
         <div className='footer-links'>

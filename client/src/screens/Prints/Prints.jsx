@@ -15,7 +15,7 @@ function Prints() {
     
   }, [])
   return (
-    <Layout>
+   
     <div className='prints-wrapper'>
         <div className='prints'>
         {fetchData.map((print) => 
@@ -30,7 +30,7 @@ function Prints() {
         Add a Print
       </Link>
       </div>
-      </Layout>
+
   )
 }
 export default Prints;

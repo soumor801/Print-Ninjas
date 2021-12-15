@@ -2,11 +2,13 @@ import Layout from "../../components/Layout";
 import {useState } from 'react' 
 import { TextField, Button } from "@mui/material";
 import SignInCSS from '../SignUp&In/SignIn.css'
+import { useNavigate } from "react-router";
 const SignIn = ({handleLogin}) => {
   const [formData, setFormData] = useState({
     email: '',
     password: '',
   });
+  let navigate = useNavigate();
   const { email, password } = formData;
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,6 +27,7 @@ const SignIn = ({handleLogin}) => {
           onSubmit={(e) => {
             e.preventDefault();
             handleLogin(formData)
+            navigate('/prints')
         }}
         >
           <TextField label="Email" variant="filled" name='email' type="email" value={email} onChange={handleChange} required />

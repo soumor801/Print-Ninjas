@@ -5,7 +5,7 @@ import HomeCSS from './components css/Home.css'
 import { Link } from 'react-router-dom'
 function Home() {
   return (
-    <Layout>
+    <div>
     <div className='splash-page'>
         {/* <img className='splash-photo' src='https://i.imgur.com/6WoT0mY.jpg'/> */}
         <div className='hero-image'>
@@ -40,7 +40,7 @@ function Home() {
           <Link to ="/products">shop now</Link>
         </div>
         </div>
-      </Layout>
+        </div>
   )
 }
 export default Home;

@@ -3,12 +3,16 @@ import AboutCSS from '../components/components css/About.css'
 
 function About() {
   return (
-    <Layout>
-    <div className='about-wrapper'>
+
+      <div className='about-wrapper'>
+        <div className='about-h1'>
         <h1>About Us</h1>
+        </div>
         <h2>Print Ninjas</h2>
               <p className="profile-text"> Print Ninjas is a digital & physical print ecommerce website that allows user to create, view, and edit all your favorite anime characters, all in one place.</p>
-        
+              <div className='about-h1'>
+        <h1>Developer Team:</h1>
+        </div>
         <div className="ej">
               <div className="letter-image-block">
                 <img src="https://i.imgur.com/hoPFt6I.jpg" alt ="ej headshot"></img>
@@ -23,7 +27,7 @@ function About() {
               </div>
               </div>
       </div>
-      </Layout>
+  
   )
 }
 export default About;

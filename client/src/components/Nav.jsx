@@ -1,6 +1,7 @@
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import NavCSS from './components css/Nav.css'
-function Nav() {
+const  Nav = (props) => {
+  let { user } = props
   const authenticatedOptions = (
     <>
         <NavLink className="link" to="/sign-out">SIGN OUT</NavLink>
@@ -12,6 +13,7 @@ function Nav() {
         <NavLink className="nav-links" to="/sign-in">SIGN IN</NavLink>
     </>
   )
+  console.log(user)
   return (
     <div >
       <nav>
@@ -20,7 +22,11 @@ function Nav() {
           <div className='nav-links'>
         <Link to='/prints'><div className='nav-links'>PRINTS</div></Link>
         <Link to='/about-us'><div className='nav-links'>ABOUT US</div></Link>
-            <Link to='/about-us'><div className='nav-links'>{unauthenticatedOptions}</div></Link>
+        <div className='links'>
+           {/* {alwaysOptions} */}
+        {user ? authenticatedOptions : unauthenticatedOptions}
+        {user && <div className="link-welcome">Welcome, {user.email}</div>}
+          </div>
         </div>
         </div>
         

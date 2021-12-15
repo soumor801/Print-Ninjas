@@ -21,7 +21,7 @@ function SinglePrint() {
       navigate('/prints')
   }
   return (
-    <Layout>
+    <div>
       <div className='wrapper'>
         <img className="url" src={onePrint.image_link} />
         <div className='info'>
@@ -34,8 +34,8 @@ function SinglePrint() {
       <button className='deleteButton' onClick={() => navigate(`/print-edit/${id}`)}>Edit</button>
       <button className='deleteButton' onClick={removePrint}>Delete</button>
       </div>
-      
-      </Layout>
+      </div>
+
   )
 }
 export default SinglePrint;
