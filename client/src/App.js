@@ -47,7 +47,7 @@ console.log(user)
     removeToken();
   };
   return (
-    <Layout user={user}>
+    <Layout user={user} handleLogout={handleLogout}>
     <div className="App">
       {/* create Routes */}
       <Routes>

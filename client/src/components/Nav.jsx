@@ -1,10 +1,10 @@
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import NavCSS from './components css/Nav.css'
 const  Nav = (props) => {
-  let { user } = props
+  let { user, handleLogout } = props
   const authenticatedOptions = (
     <>
-        <NavLink className="link" to="/sign-out">SIGN OUT</NavLink>
+        <NavLink className="link" to="/sign-out" onClick={() => handleLogout()}>SIGN OUT</NavLink>
     </>
   )
   const unauthenticatedOptions = (
@@ -13,7 +13,6 @@ const  Nav = (props) => {
         <NavLink className="nav-links" to="/sign-in">SIGN IN</NavLink>
     </>
   )
-  console.log(user)
   return (
     <div >
       <nav>

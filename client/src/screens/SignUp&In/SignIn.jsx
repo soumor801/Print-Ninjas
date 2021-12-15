@@ -19,9 +19,9 @@ const SignIn = ({handleLogin}) => {
     
   };
   return (
-    <Layout>
+
     <div className='sign-in-form-wrapper'>
-       <h1>Sign In here!</h1>
+      <h1>Sign In here!</h1>
         <form
           className='form-sign-in'
           onSubmit={(e) => {
@@ -40,7 +40,7 @@ const SignIn = ({handleLogin}) => {
 </div>
 </form>
       </div>
-      </Layout>
+
   )
 }
 export default SignIn;

@@ -8,7 +8,7 @@ function Layout(props) {
     <div className='layout-wrapper'>
         
       <div className="layout-children">
-      <Nav user={props.user}  />
+      <Nav user={props.user} handleLogout={props.handleLogout} />
             {props.children}</div>
       <footer>
         <div className='footer-links'>
