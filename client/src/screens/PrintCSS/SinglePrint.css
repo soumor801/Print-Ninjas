@@ -69,7 +69,7 @@
     text-align: center;
   }
   .button-container {
-    display: block;
+    display: inline-block;
 
     width: 50%;
   }

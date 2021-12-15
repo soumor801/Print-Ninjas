@@ -9,9 +9,11 @@ function Home() {
     <div className='splash-page'>
         {/* <img className='splash-photo' src='https://i.imgur.com/6WoT0mY.jpg'/> */}
         <div className='hero-image'>
-          </div>
-        <h1 className='hero-text' id='home-h1'>Digital & Physical Anime Prints</h1>
+        <div className='splash-text'>
+          <h1 className='hero-text' id='home-h1'>Digital & Physical Anime Prints</h1>
         <Link to="/prints" className='hero-text'>Find your print</Link>
+          </div>
+        </div>
       </div>
       <div className='featured-block'>
         <FeaturedProduct />
