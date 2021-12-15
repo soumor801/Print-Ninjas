@@ -28,9 +28,9 @@ div.splash-page {
   color: #ffffff;
   margin-bottom: 40px;
 }
-.hero-text a {
+a.hero-text {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: #ff8329;
   padding: 12px;
   border-radius: 5px;
@@ -199,11 +199,9 @@ div.splash-page {
 }
 
 .action-block img {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-
+  display: block;
+  margin: auto;
+  width: 70%;
   margin-top: 50px;
   height: 250px;
 }
@@ -245,8 +243,8 @@ div.splash-page {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  color: #264653;
-  background-color: #f4a261;
+  color: #ffffff;
+  background-color: #ff8329;
   padding: 8px 14px 8px 14px;
   border-radius: 5px;
   font-family: "Playfair Display", sans-serif;

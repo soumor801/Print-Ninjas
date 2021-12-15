@@ -38,19 +38,19 @@ function Home() {
           <img src="https://i.imgur.com/2p10WOz.png" alt="backpack"></img>
           <h4>Shop Now</h4>
           <p>  Browse through our catalog of hundreds of products and find what you need to turn your space into an anime safehaven. </p>
-          <Link to ="/prints">shop now</Link>
+          <Link to ="/prints">Shop now</Link>
         </div>
         <div className="shop-now">
           <img src="https://i.imgur.com/FYBY2ca.png" alt="backpack"></img>
           <h4>Join Us</h4>
           <p>Be a part of the adventure.  Join the community and get exclusive deals and gain access to  product reviews. Contribute to Print Ninjas member experience.  </p>
-          <Link to ="/sign-up">shop now</Link>
+          <Link to ="/sign-up">Join Us</Link>
         </div>
         <div className="shop-now">
           <img src="https://i.imgur.com/9Sveq1s.png" alt="backpack"></img>
           <h4>Learn More</h4>
           <p>We like to think we’re a pretty fun bunch! And we would love for you to join in on the fun. Learn more about our team and what we love to do.</p>
-          <Link to ="/about">shop now</Link>
+          <Link to ="/about">Learn More</Link>
         </div>
         </div>
         </div>
