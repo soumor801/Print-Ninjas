@@ -2,6 +2,9 @@ html,
 body {
   height: 100%;
 }
+.footer-links :hover {
+  background-color: #feec46;
+}
 img.footer-logo {
   width: 250px;
   height: 150px;
@@ -11,7 +14,7 @@ img.footer-logo {
 footer {
   position: relative;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   height: 100px;
   background-color: #ff8329;
   display: flex;

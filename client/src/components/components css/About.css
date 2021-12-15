@@ -1,8 +1,6 @@
-.profile-text {
-}
 .about-wrapper {
-  height: 60vh;
-  margin: 30px;
+  height: 80vh;
+  margin: 40px;
 }
 .about-h1 {
   display: flex;
@@ -19,7 +17,7 @@
 .profile-text {
   font-family: "Cabin", sans-serif;
   font-weight: 300;
-  font-size: 1.6vw;
+  font-size: 23px;
   margin-top: 8px;
   margin-bottom: 9px;
 }

@@ -9,7 +9,10 @@ img.nav-logo {
   justify-content: space-evenly;
   background-color: #ff8329;
   height: 100px;
+  width: 100vw;
+  top: 0;
 }
+
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -32,4 +35,92 @@ a {
 }
 .links :hover {
   background-color: #feec46;
+}
+.bm-burger-button {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  right: 60px;
+  top: 40px;
+}
+
+.bm-burger-bars {
+  background: black;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  left: 165px;
+}
+
+.bm-cross {
+  background: white;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  right: -100px;
+}
+
+.mobile-nav {
+  right: -100px;
+}
+
+.bm-menu {
+  background: #ff8329;
+  padding: 2em 1em 0;
+  font-size: 1em;
+  width: 200px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.bm-menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.burger-item {
+  margin: 10px 0px 10px 0px;
+}
+
+.bm-menu .link-welcome {
+  color: white;
+  padding: 10px;
+}
+
+@media (min-width: 870px) {
+  .mobile-nav {
+    display: none;
+  }
+  .bm-burger-button {
+    display: none;
+    position: absolute;
+  }
+  .nav-home .mobile-nav {
+    display: none;
+  }
+}
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 870px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-home .links {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    height: 30px;
+  }
 }

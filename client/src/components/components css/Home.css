@@ -32,7 +32,7 @@ a.hero-text {
   text-decoration: none;
   color: rgb(255, 255, 255);
   background-color: #ff8329;
-  top: 60%;
+  top: 70%;
   padding: 12px;
   border-radius: 5px;
   font-family: sans-serif;
@@ -205,6 +205,8 @@ a.hero-text {
   width: 70%;
   margin-top: 50px;
   height: 250px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .action-block h4 {
@@ -234,6 +236,7 @@ a.hero-text {
 .action-block p {
   display: flex;
   justify-content: center;
+  text-align: center;
   font-family: "Cabin", sans-serif;
   font-weight: 200;
   font-size: 18px;
