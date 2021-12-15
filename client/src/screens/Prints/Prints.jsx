@@ -19,9 +19,9 @@ function Prints() {
     <div className='prints-wrapper'>
         <div className='prints'>
         {fetchData.map((print) => 
-          <div>
+          <div className='img-containers'>
           
-          <Link to={`/print/${print.id}`} > <img className='print-image' src={print.image_link} /> <h4>{print.title}</h4> </Link>
+          <Link to={`/print/${print.id}`} > <img className='print-image' src={print.image_link} /> <h4 className='img-text'>{print.title}</h4> </Link>
           </div>
         )}
         </div>
