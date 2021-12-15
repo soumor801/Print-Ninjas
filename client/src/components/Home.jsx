@@ -29,15 +29,16 @@ function Home() {
         </div>
       </div>
       <div className='quote-block'>
-        <h2>Not all who <span className="color-wander">wander</span> are lost.</h2>
-        <p>If it wasn’t for hiking, I would not have discovered the trails, soaring trees, chirping birds and rolling dunes in multiple parts of the world.  Pashmina, 2021</p>
+        <h2>Follow Your <span className="color-wander">Ninja</span> way!</h2>
+        <p>“Don’t give up, there’s no shame in falling down! True shame is to not stand up again!”
+~ Shintaro Midorima (Kuroko No Basket)</p>
       </div>
       <div className='action-block'>
         <div className="shop-now">
           <img src="https://i.imgur.com/adQyRvl.jpg" alt="backpack"></img>
           <h4>Shop Now</h4>
           <p>Take in the experience of the outdoors. Browse through our catalog of hundreds of products and find what you need to get outside and get free.</p>
-          <Link to ="/products">shop now</Link>
+          <Link to ="/prints">shop now</Link>
         </div>
         </div>
         </div>
