@@ -165,12 +165,12 @@ div.splash-page {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   font-size: 6.7vw;
-  color: #2a9d8f;
+  color: #ff8329;
   margin-bottom: 10px;
 }
 
 .color-wander {
-  color: #e76f51;
+  color: #ff8329;
 }
 
 .quote-block p {
@@ -199,14 +199,22 @@ div.splash-page {
 }
 
 .action-block img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
   margin-top: 50px;
+  height: 250px;
 }
 
 .action-block h4 {
+  display: flex;
+  justify-content: center;
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   font-size: 30px;
-  color: #264653;
+  color: #ff8329;
   margin-top: 8px;
   margin-bottom: 16px;
 }
@@ -225,6 +233,8 @@ div.splash-page {
 }
 
 .action-block p {
+  display: flex;
+  justify-content: center;
   font-family: "Cabin", sans-serif;
   font-weight: 200;
   font-size: 18px;
@@ -232,6 +242,8 @@ div.splash-page {
 }
 
 .action-block a {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   color: #264653;
   background-color: #f4a261;
