@@ -41,7 +41,6 @@ const SignUp = ({ handleOpen, handleClose, handleRegister }) => {
     }));
   };
   return (
-    <Layout>
       <div className="form-sign-up">
         <h1>Sign Up here!</h1>
         <form
@@ -85,7 +84,7 @@ const SignUp = ({ handleOpen, handleClose, handleRegister }) => {
           </div>
         </form>
       </div>
-    </Layout>
+
   );
 };
 export default SignUp;

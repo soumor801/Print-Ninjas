@@ -6,14 +6,30 @@ img.nav-logo {
 .nav-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #ff8329;
   height: 100px;
 }
 .nav-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 35px;
+  margin: 15px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.nav-links :hover {
+  background-color: #feec46;
+}
+.links :hover {
+  background-color: #feec46;
 }

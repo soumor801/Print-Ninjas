@@ -1,6 +1,6 @@
 img.splash-photo {
 }
-div.splash-page {
+#home-h1 {
 }
 .hero-image {
   background-image: url("https://i.imgur.com/6WoT0mY.jpg");
@@ -32,6 +32,7 @@ a.hero-text {
   text-decoration: none;
   color: rgb(255, 255, 255);
   background-color: #ff8329;
+  top: 60%;
   padding: 12px;
   border-radius: 5px;
   font-family: sans-serif;

@@ -10,7 +10,7 @@ function Home() {
         {/* <img className='splash-photo' src='https://i.imgur.com/6WoT0mY.jpg'/> */}
         <div className='hero-image'>
           </div>
-        <h1 className='hero-text'>Digital & Physical Anime Prints</h1>
+        <h1 className='hero-text' id='home-h1'>Digital & Physical Anime Prints</h1>
         <Link to="/prints" className='hero-text'>Find your print</Link>
       </div>
       <div className='featured-block'>
@@ -18,7 +18,7 @@ function Home() {
       </div>
       <div className='join-block'>
         <div className='join-text-block'>
-          <h4>Become a  <span className="color-outdoors">Ninja</span></h4>
+          <h4>Become a  <span className="color-outdoors">Ninja!</span></h4>
           <p>Shopping at Print Ninjas means you’re part of a community. A variety digital and physical prints, of all your favorite animes characters (and find great deals along the way)..</p>
           <Link className="join-button" to="/sign-up">
             Join Now!
