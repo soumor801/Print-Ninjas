@@ -18,10 +18,10 @@ function Home() {
       </div>
       <div className='join-block'>
         <div className='join-text-block'>
-          <h4>Join Us <span className="color-outdoors">Outdoors</span></h4>
-          <p>Shopping at EverFree Outdoors means you’re part of a community. Get unplugged, get free, and get outside with us (and find great deals along the way).</p>
+          <h4>Become a  <span className="color-outdoors">Ninja</span></h4>
+          <p>Shopping at Print Ninjas means you’re part of a community. A variety digital and physical prints, of all your favorite animes characters (and find great deals along the way)..</p>
           <Link className="join-button" to="/sign-up">
-            join us
+            Join Now!
           </Link>
         </div>
         <div className='join-image-block'>
