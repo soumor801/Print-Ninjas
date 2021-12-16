@@ -52,7 +52,7 @@ function Home() {
           <img src="https://i.imgur.com/9Sveq1s.png" alt="backpack"></img>
           <h4>Learn More</h4>
           <p>We like to think we’re a pretty fun bunch! And we would love for you to join in on the fun. Learn more about our team and what we love to do.</p>
-          <Link to ="/about">Learn More</Link>
+          <Link to ="/about-us">Learn More</Link>
         </div>
         </div>
         </div>
