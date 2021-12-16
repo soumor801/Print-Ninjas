@@ -21,7 +21,7 @@ function Home() {
       <div className='join-block'>
         <div className='join-text-block'>
           <h4>Become a  <span className="color-outdoors">Ninja!</span></h4>
-          <p>Shopping at Print Ninjas means you’re part of a community. A variety digital and physical prints, of all your favorite animes characters (and find great deals along the way)..</p>
+          <p>Shopping at Print Ninjas means you’re part of a community. A variety of digital and physical prints, of all your favorite animes characters (and find great deals along the way)</p>
           <Link className="join-button" to="/sign-up">
             Join Now!
           </Link>

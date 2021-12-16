@@ -27,6 +27,7 @@ function CreatePrint() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const created = await createPrint(print);
+    console.log(created)
     setCreated({ created });
   };
 
@@ -88,10 +89,10 @@ function CreatePrint() {
               required
               onChange={handleChange}
             />
-          </form>
-          <div className="add-submit-button">
             <button type="submit" className="add-submit-button">let's go</button>
-          </div>
+          </form>
+          {/* <div className="add-submit-button">
+          </div> */}
         </div>
       </div>
     </div>

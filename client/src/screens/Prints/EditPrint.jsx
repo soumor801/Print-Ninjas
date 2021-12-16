@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout";
 import { useState, useEffect } from 'react'
-import { useParams } from "react-router";
+import { useParams, useNavigate, Navigate } from "react-router";
 import { getOnePrint, updatePrint } from "../../services/HttpReq";
 import EditPrintCSS from '../../screens/PrintCSS/EditPrint.css'
 const EditPrint = (props) => {
@@ -14,7 +14,7 @@ const EditPrint = (props) => {
   });
 
   const [isUpdated, setIsUpdated] = useState(false);
-
+  let navigate = useNavigate()
   let { id } = useParams();
   useEffect(() => {
     const fetchProduct = async () => {
@@ -31,15 +31,14 @@ const EditPrint = (props) => {
       [name]: value,
     });
   };
-console.log(print)
   const handleSubmit = async (event) => {
     event.preventDefault();
     updatePrint(id, print);
-    
+    setIsUpdated(true)
   };
 
   if (isUpdated) {
-    // return <Navigate to={`/prints/${id}`} />;
+    return navigate(`/print/${id}`)
   }
   return (
 
@@ -97,7 +96,7 @@ console.log(print)
           required
           onChange={handleChange}
         />
-        <button type='submit' className='add-submit-button'>Edit Print</button>
+        <button type='submit' className='add-submit-button' >Edit Print</button>
         
       </form>
       </div>
