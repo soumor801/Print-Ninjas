@@ -15,6 +15,8 @@
 - [Code Issues & Resolutions](#code-issues--resolutions)
 
 <br>
+## Deployed Site
+https://print-ninjas.netlify.app/
 
 ## Overview
 
