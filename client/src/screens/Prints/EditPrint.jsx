@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout";
 import { useState, useEffect } from 'react'
-import { useParams, useNavigate, Navigate } from "react-router";
+import { useParams, useNavigate } from "react-router";
 import { getOnePrint, updatePrint } from "../../services/HttpReq";
 import EditPrintCSS from '../../screens/PrintCSS/EditPrint.css'
 const EditPrint = (props) => {
